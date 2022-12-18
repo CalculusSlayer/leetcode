@@ -44,6 +44,12 @@ def main():
 	print(iterative(deep)) # [1, 2, 4, 3]
 	# print([1, 2, 4, 6, 7, 8, 9, 10, 5, 3])
 
+	x = deep['a']
+	print(x)
+	deep['a'] = 69
+	print(x)
+	print(deep['a'])
+
 
 if __name__ == '__main__':
 	main()
